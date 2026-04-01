@@ -14,10 +14,13 @@ This was my first trip abroad with my wife, which already made the whole Tokyo j
 
 ## Tokyo Trip
 
+**Dates:** 4 to 11 November 2023  
 **Accommodation:** G-Stays Shinjuku and Hotel Amanek Asakusa Ekimae  
 **Highlights:** Tokyo Disneyland, Kawaguchiko, and Coldplay at Tokyo Dome
 
 ## Day 0: Departure and Transit
+
+**Saturday, 4 November 2023**
 
 - Departure from Jakarta
 - Transit in Bali:
@@ -27,6 +30,8 @@ This was my first trip abroad with my wife, which already made the whole Tokyo j
 - Transit in Hanoi
 
 ## Day 1: Arrival and First Tokyo Stops
+
+**Sunday, 5 November 2023**
 
 - Arrival in Tokyo
 - Check in at G-Stays Shinjuku
@@ -39,6 +44,8 @@ This was my first trip abroad with my wife, which already made the whole Tokyo j
   - Kabukicho
 
 ## Day 2: Disneyland and Odaiba
+
+**Monday, 6 November 2023**
 
 - Disneyland:
   - Star Tours
@@ -56,6 +63,8 @@ This was my first trip abroad with my wife, which already made the whole Tokyo j
 
 ## Day 3: Tokyo Station and Coldplay
 
+**Tuesday, 7 November 2023**
+
 - Tsukiji Outer Market
 - Tokyo Station:
   - Kinokuniya Entrée Gransta Tokyo
@@ -70,6 +79,8 @@ This was my first trip abroad with my wife, which already made the whole Tokyo j
 
 ## Day 4: Kawaguchiko Day Trip
 
+**Wednesday, 8 November 2023**
+
 - Fuji-Q Highland:
   - Shining Flower Ferris Wheel
   - Higuma Doughnuts
@@ -79,6 +90,8 @@ This was my first trip abroad with my wife, which already made the whole Tokyo j
 - Masala Dining Shinjuku
 
 ## Day 5: Shinjuku, Ginza, and Tokyo Tower View
+
+**Thursday, 9 November 2023**
 
 - Shinjuku:
   - Disney Flagship Store
@@ -94,6 +107,8 @@ This was my first trip abroad with my wife, which already made the whole Tokyo j
 - Shiba Park (Tokyo Tower view)
 
 ## Day 6: Asakusa to Shibuya
+
+**Friday, 10 November 2023**
 
 - Asakusa:
   - Sensō-ji
@@ -114,6 +129,8 @@ This was my first trip abroad with my wife, which already made the whole Tokyo j
   - Shibuya Sky (Cancelled)
 
 ## Day 7: Departure
+
+**Saturday, 11 November 2023**
 
 - Departure from Tokyo
 - Transit in Singapore
