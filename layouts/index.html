@@ -1,0 +1,28 @@
+{{ define "main" }}
+  <section class="home-intro">
+    <p class="eyebrow">Archive</p>
+    <h1>{{ site.Title }}</h1>
+    <p class="home-copy">Notes on movies, series, and trips.</p>
+  </section>
+
+  {{ $latest := where site.RegularPages "Type" "not in" (slice "pages") }}
+  {{ $paginator := .Paginate ($latest.ByDate.Reverse) }}
+  <section class="post-feed">
+    {{ range $paginator.Pages }}
+      <article class="post-item">
+        <div class="post-meta-wrap">
+          <p class="meta">{{ .Date.Format "02 Jan 2006" }}</p>
+          <p class="meta">{{ .Type | title }}</p>
+        </div>
+        <div class="post-body">
+          <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+          {{ with .Params.summary }}
+            <p>{{ . }}</p>
+          {{ end }}
+        </div>
+      </article>
+    {{ end }}
+  </section>
+
+  {{ partial "pagination.html" . }}
+{{ end }}

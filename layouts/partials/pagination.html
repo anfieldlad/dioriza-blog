@@ -1,0 +1,21 @@
+{{ with .Paginator }}
+  {{ if gt .TotalPages 1 }}
+    <nav class="pagination" aria-label="Pagination">
+      <div class="pagination-links">
+        {{ if .HasPrev }}
+          <a class="pagination-link" href="{{ .Prev.URL }}">Newer Posts</a>
+        {{ else }}
+          <span class="pagination-link is-disabled">Newer Posts</span>
+        {{ end }}
+
+        <span class="pagination-status">Page {{ .PageNumber }} of {{ .TotalPages }}</span>
+
+        {{ if .HasNext }}
+          <a class="pagination-link" href="{{ .Next.URL }}">Older Posts</a>
+        {{ else }}
+          <span class="pagination-link is-disabled">Older Posts</span>
+        {{ end }}
+      </div>
+    </nav>
+  {{ end }}
+{{ end }}

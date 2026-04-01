@@ -1,0 +1,48 @@
+baseURL = "https://example.org/"
+languageCode = "en-us"
+title = "Bobby Dioriza"
+timezone = "Asia/Jakarta"
+
+[pagination]
+  pagerSize = 8
+
+[params]
+  author = "Bobby Dioriza"
+  description = "A personal blog about yearly movie and series reviews, plus trip itineraries."
+  intro = "Yearly watchlists, travel plans, and a few personal notes."
+  email = "bobalonso99@gmail.com"
+
+[permalinks]
+  reviews = "/reviews/:slug/"
+  itineraries = "/itineraries/:slug/"
+  thoughts = "/thoughts/:slug/"
+  pages = "/:slug/"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  destination = "destinations"
+  year = "years"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    pageRef = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Reviews"
+    pageRef = "/reviews"
+    weight = 2
+  [[menu.main]]
+    name = "Itineraries"
+    pageRef = "/itineraries"
+    weight = 3
+  [[menu.main]]
+    name = "Thoughts"
+    pageRef = "/thoughts"
+    weight = 4

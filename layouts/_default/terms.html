@@ -1,0 +1,23 @@
+﻿{{ define "main" }}
+  <section class="section-intro">
+    <p class="eyebrow">Archive</p>
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.summary }}
+      <div class="section-copy prose"><p>{{ . }}</p></div>
+    {{ end }}
+  </section>
+
+  <section class="post-feed">
+    {{ range .Data.Terms.Alphabetical }}
+      <article class="post-item">
+        <div class="post-meta-wrap">
+          <p class="meta">{{ .Count }} posts</p>
+          <p class="meta">{{ $.Data.Plural | title }}</p>
+        </div>
+        <div class="post-body">
+          <h2><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a></h2>
+        </div>
+      </article>
+    {{ end }}
+  </section>
+{{ end }}

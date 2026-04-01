@@ -1,0 +1,60 @@
+﻿{{ define "main" }}
+  <article class="article{{ if eq .Type "reviews" }} article-review{{ end }}">
+    <header class="article-head">
+      <p class="eyebrow">{{ .Type | title }}</p>
+      <h1>{{ .Title }}</h1>
+      <div class="article-meta">
+        <p class="meta">{{ .Date.Format "02 Jan 2006" }}</p>
+        {{ with .Params.destinations }}
+          <p class="meta">{{ delimit . ", " }}</p>
+        {{ end }}
+      </div>
+    </header>
+
+    {{ if eq .Type "reviews" }}
+      {{ $parts := split .RawContent "<hr />" }}
+      {{ if ge (len $parts) 2 }}
+        {{ $movies := index $parts 0 }}
+        {{ $series := delimit (after 1 $parts) "" }}
+
+        {{ $moviesHTML := replaceRE `(?s)<!--.*?-->` "" $movies }}
+        {{ $moviesHTML = replaceRE `(?s)<p>\s*((?:<a[^>]*>.*?</a>|<strong>.*?</strong>))\s*<br ?/?>\s*My Rating:\s*([0-9.]+)\s*<br ?/?>\s*(.*?)\s*</p>` `<article class="watch-entry"><h3 class="watch-title">$1</h3><div class="watch-meta"><span class="watch-rating">&#9733; $2</span><span class="watch-source">$3</span></div></article>` $moviesHTML }}
+        {{ $moviesHTML = replaceRE `(?s)<p>\s*</p>` "" $moviesHTML }}
+
+        {{ $seriesHTML := replaceRE `(?s)<!--.*?-->` "" $series }}
+        {{ $seriesHTML = replaceRE `(?s)<p>\s*((?:<a[^>]*>.*?</a>|<strong>.*?</strong>))\s*<br ?/?>\s*My Rating:\s*([0-9.]+)\s*<br ?/?>\s*(.*?)\s*</p>` `<article class="watch-entry"><h3 class="watch-title">$1</h3><div class="watch-meta"><span class="watch-rating">&#9733; $2</span><span class="watch-source">$3</span></div></article>` $seriesHTML }}
+        {{ $seriesHTML = replaceRE `(?s)<p>\s*</p>` "" $seriesHTML }}
+
+        <div class="review-sections">
+          <section class="review-section">
+            <div class="review-section-head">
+              <p class="eyebrow">Part One</p>
+              <h2>Movies</h2>
+            </div>
+            <div class="prose article-content review-rich review-grid">
+              {{ $moviesHTML | safeHTML }}
+            </div>
+          </section>
+
+          <section class="review-section">
+            <div class="review-section-head">
+              <p class="eyebrow">Part Two</p>
+              <h2>Series</h2>
+            </div>
+            <div class="prose article-content review-rich review-grid">
+              {{ $seriesHTML | safeHTML }}
+            </div>
+          </section>
+        </div>
+      {{ else }}
+        <div class="prose article-content">
+          {{ .Content }}
+        </div>
+      {{ end }}
+    {{ else }}
+      <div class="prose article-content">
+        {{ .Content }}
+      </div>
+    {{ end }}
+  </article>
+{{ end }}

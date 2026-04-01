@@ -1,0 +1,33 @@
+{{ define "main" }}
+  <section class="section-intro">
+    <p class="eyebrow">{{ .Type | title }}</p>
+    <h1>{{ .Title }}</h1>
+    {{ with .Content }}
+      <div class="section-copy prose">{{ . }}</div>
+    {{ end }}
+  </section>
+
+  {{ $paginator := .Paginate (.RegularPages.ByDate.Reverse) }}
+  <section class="post-feed">
+    {{ range $paginator.Pages }}
+      <article class="post-item">
+        <div class="post-meta-wrap">
+          <p class="meta">{{ .Date.Format "02 Jan 2006" }}</p>
+          {{ with .Params.year }}
+            <p class="meta">{{ . }}</p>
+          {{ else }}
+            <p class="meta">{{ .Type | title }}</p>
+          {{ end }}
+        </div>
+        <div class="post-body">
+          <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+          {{ with .Params.summary }}
+            <p>{{ . }}</p>
+          {{ end }}
+        </div>
+      </article>
+    {{ end }}
+  </section>
+
+  {{ partial "pagination.html" . }}
+{{ end }}
