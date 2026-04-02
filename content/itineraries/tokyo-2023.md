@@ -8,19 +8,36 @@ summary = "My first trip abroad with my wife, with Tokyo Disneyland, Kawaguchiko
 aliases = ["/itineraries/tokyo-itinerary-2023/"]
 categories = ["travel"]
 destinations = ["tokyo"]
+country = "Japan"
 +++
 
 This was my first trip abroad with my wife, which already made the whole Tokyo journey feel special from the very beginning, especially after the COVID-19 period when traveling abroad felt out of reach for a while. I had been to Japan before I got married, through [Tokyo 2018](/itineraries/tokyo-2018/) and [Osaka & Kyoto 2019](/itineraries/osaka-kyoto-2019/), so this trip also felt like returning to a place I already loved, but in a very different chapter of life.
 
 ## Tokyo Trip
 
-**Dates:** 4 to 11 November 2023  
-**Accommodation:** G-Stays Shinjuku and Hotel Amanek Asakusa Ekimae  
-**Highlights:** Tokyo Disneyland, Kawaguchiko, and Coldplay at Tokyo Dome
+<p class="summary-block"><strong>Dates:</strong> 4 to 11 November 2023</p>
+<p class="summary-block"><strong>Flights:</strong></p>
+<ul class="tight-list">
+  <li>AirAsia (Jakarta to Bali)</li>
+  <li>VietJet Air (Bali to Tokyo via Hanoi)</li>
+  <li>Scoot (Tokyo to Jakarta via Singapore)</li>
+</ul>
+<p class="summary-block"><strong>Accommodation:</strong></p>
+<ul class="tight-list">
+  <li>G-Stays Shinjuku (near Higashi-Shinjuku Station)</li>
+  <li>Hotel Amanek Asakusa Ekimae (near Asakusa Station)</li>
+</ul>
+<p class="summary-block"><strong>Online bookings:</strong></p>
+<ul class="tight-list">
+  <li>Tokyo Disneyland 1-Day Passport: Rp 1.763.156 for 2 adults</li>
+  <li>Shibuya Sky Ticket: Rp 488.914 for 2 adults</li>
+  <li>Tokyo Subway Ticket 48-Hour: Rp 267.836 for 2 adults, used on Day 5 and Day 6</li>
+  <li>Coldplay Tokyo Dome tickets: 42.420 JPY for 2 tickets</li>
+</ul>
 
 ## Day 0: Departure and Transit
 
-**Saturday, 4 November 2023**
+Saturday, 4 November 2023
 
 - Departure from Jakarta
 - Transit in Bali:
@@ -31,9 +48,10 @@ This was my first trip abroad with my wife, which already made the whole Tokyo j
 
 ## Day 1: Arrival and First Tokyo Stops
 
-**Sunday, 5 November 2023**
+Sunday, 5 November 2023
 
-- Arrival in Tokyo
+- Arrival at Narita Airport, Tokyo
+- Narita to Tokyo Station (Expressway Bus)
 - Check in at G-Stays Shinjuku
 - Ride bus to Gyukatsu Motomura Shinjuku
 - Akihabara: Car Free Day
@@ -45,7 +63,7 @@ This was my first trip abroad with my wife, which already made the whole Tokyo j
 
 ## Day 2: Disneyland and Odaiba
 
-**Monday, 6 November 2023**
+Monday, 6 November 2023
 
 - Disneyland:
   - Star Tours
@@ -63,7 +81,7 @@ This was my first trip abroad with my wife, which already made the whole Tokyo j
 
 ## Day 3: Tokyo Station and Coldplay
 
-**Tuesday, 7 November 2023**
+Tuesday, 7 November 2023
 
 - Tsukiji Outer Market
 - Tokyo Station:
@@ -71,7 +89,7 @@ This was my first trip abroad with my wife, which already made the whole Tokyo j
   - Tokyo Character Street
 - Imperial Palace East Garden
 - Jimbocho:
-  - Glitch Coffee & Roasters (Full)
+  - Glitch Coffee & Roasters (full, so we looked for another coffee shop)
   - Paper Back Cafe
 - Tokyo Dome:
   - YOASOBI (opener)
@@ -79,19 +97,20 @@ This was my first trip abroad with my wife, which already made the whole Tokyo j
 
 ## Day 4: Kawaguchiko Day Trip
 
-**Wednesday, 8 November 2023**
+Wednesday, 8 November 2023
 
-- Fuji-Q Highland:
-  - Shining Flower Ferris Wheel
-  - Higuma Doughnuts
-- Ensoleille Excursion Ship Pleasure Boat
-- Mt. Fuji Panoramic Ropeway
-- Fujikawaguchiko Cherry Blossom Corridor
+- Mt. Fuji Pass (1-day):
+  - Fuji-Q Highland:
+    - 1 free attraction: Shining Flower Ferris Wheel
+    - Higuma Doughnuts
+  - Ensoleille Excursion Ship Pleasure Boat
+  - Mt. Fuji Panoramic Ropeway
+  - Bus to Fujikawaguchiko Cherry Blossom Corridor
 - Masala Dining Shinjuku
 
 ## Day 5: Shinjuku, Ginza, and Tokyo Tower View
 
-**Thursday, 9 November 2023**
+Thursday, 9 November 2023
 
 - Shinjuku:
   - Disney Flagship Store
@@ -108,7 +127,7 @@ This was my first trip abroad with my wife, which already made the whole Tokyo j
 
 ## Day 6: Asakusa to Shibuya
 
-**Friday, 10 November 2023**
+Friday, 10 November 2023
 
 - Asakusa:
   - Sensō-ji
@@ -126,11 +145,11 @@ This was my first trip abroad with my wife, which already made the whole Tokyo j
   - Shibuya Parco
   - Mega Don Quijote
   - Kura Sushi
-  - Shibuya Sky (Cancelled)
+  - Shibuya Sky (cancelled, half refunded)
 
 ## Day 7: Departure
 
-**Saturday, 11 November 2023**
+Saturday, 11 November 2023
 
 - Departure from Tokyo
 - Transit in Singapore

@@ -7,6 +7,7 @@ slug = "cancelled-singapore-2020"
 summary = "A short Singapore trip plan that was fully booked, then cancelled when COVID-19 changed everything."
 categories = ["travel"]
 destinations = ["singapore"]
+country = "Singapore"
 +++
 
 A short Singapore getaway that was already booked, but ultimately cancelled because of COVID-19.

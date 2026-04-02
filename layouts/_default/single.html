@@ -5,8 +5,16 @@
       <h1>{{ .Title }}</h1>
       <div class="article-meta">
         <p class="meta">{{ .Date.Format "02 Jan 2006" }}</p>
-        {{ with .Params.destinations }}
-          <p class="meta">{{ delimit . ", " }}</p>
+        {{ $place := "" }}
+        {{ with .Params.country }}
+          {{ $place = . }}
+        {{ else }}
+          {{ with .Params.destinations }}
+            {{ $place = delimit . ", " }}
+          {{ end }}
+        {{ end }}
+        {{ if $place }}
+          <p class="meta">{{ $place }}</p>
         {{ end }}
       </div>
     </header>

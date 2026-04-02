@@ -17,3 +17,5 @@ years = ["2026"]
 <hr />
 
 <p><strong>High Potential: Season 2</strong><br />My Rating: 7<br />Disney+</p>
+
+<p><strong>One Piece: Season 2</strong><br />My Rating: 8<br />Netflix</p>

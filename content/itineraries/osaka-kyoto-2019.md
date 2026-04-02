@@ -7,6 +7,7 @@ slug = "osaka-kyoto-2019"
 summary = "Osaka and Kyoto trip, 1 to 6 September 2019, continuing the friendships from my Tokyo 2018 trip with a few new travel companions added along the way."
 categories = ["travel"]
 destinations = ["osaka-kyoto"]
+country = "Japan"
 +++
 
 This trip reunited some of the friends I had first traveled with in [Tokyo 2018](/itineraries/tokyo-2018/) through the Backpacker Indonesia forum, along with a few new people joining the group as well. Unlike the Tokyo trip, this time we shared accommodation to keep the overall cost lower and more efficient, even though our flights were still booked separately. I arrived earlier than some of the others, had a bit more time in the trip overall, and even did a solo transit in Malaysia before the group fully came together in Osaka.
@@ -21,7 +22,7 @@ This trip reunited some of the friends I had first traveled with in [Tokyo 2018]
 
 ## Day 0: Transit in Kuala Lumpur
 
-**31 August**
+Saturday, 31 August 2019
 
 - KLIA2
 - KL Sentral
@@ -29,7 +30,7 @@ This trip reunited some of the friends I had first traveled with in [Tokyo 2018]
 
 ## Day 1: Kuala Lumpur to Osaka
 
-**1 September**
+Sunday, 1 September 2019
 
 - Sandpiper Hotel
 - KLCC
@@ -41,7 +42,7 @@ This trip reunited some of the friends I had first traveled with in [Tokyo 2018]
 
 ## Day 2: Nara, South Osaka, and Meeting the Group
 
-**2 September**
+Monday, 2 September 2019
 
 - Grandouce Nishi-Tengachaya (Airbnb)
 - Shin-Imamiya Station to Nara Station
@@ -56,7 +57,7 @@ This trip reunited some of the friends I had first traveled with in [Tokyo 2018]
 
 ## Day 3: Osaka City Day
 
-**3 September**
+Tuesday, 3 September 2019
 
 - Grandouce Nishi-Tengachaya (Airbnb)
 - Osaka Castle
@@ -70,7 +71,7 @@ This trip reunited some of the friends I had first traveled with in [Tokyo 2018]
 
 ## Day 4: Transfer to Kyoto
 
-**4 September**
+Wednesday, 4 September 2019
 
 - Grandouce Nishi-Tengachaya (Airbnb)
 - Tengachaya Station to Karasuma Station (Kyoto)
@@ -85,7 +86,7 @@ This trip reunited some of the friends I had first traveled with in [Tokyo 2018]
 
 ## Day 5: Kyoto Highlights
 
-**5 September**
+Thursday, 5 September 2019
 
 - Smile Hotel Kyoto Shijo
 - Fushimi Inari-taisha
@@ -100,7 +101,7 @@ This trip reunited some of the friends I had first traveled with in [Tokyo 2018]
 
 ## Day 6: Back to Osaka and Departure
 
-**6 September**
+Friday, 6 September 2019
 
 - Smile Hotel Kyoto Shijo
 - Omiya Station to Osaka-Umeda Station to Namba Station

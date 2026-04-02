@@ -7,33 +7,36 @@ slug = "umroh-2024"
 summary = "An eight-day Umroh journey through Al Ula, Madinah, Mecca, and Jeddah, combining worship, city visits, and a few memorable food and coffee stops."
 aliases = ["/itineraries/umroh-itinerary-2024/"]
 categories = ["travel"]
-tags = ["history", "islam", "mecca", "umrah"]
+tags = ["history", "islam", "mecca", "umroh"]
 destinations = ["umroh"]
+country = "Saudi Arabia"
 +++
 
-An eight-day Umroh trip that started with a stop in Al Ula before continuing to Madinah, Mecca, and a final transit through Jeddah. I made this journey with my family: my father, my mother, my younger sister, and my wife. We joined Insan Qolbu, a Hajj and Umrah travel agency based in Bandung.
+An eight-day Umroh trip that started with a stop in Al Ula before continuing to Madinah, Mecca, and a final transit through Jeddah. I made this journey with my father, my mother, my younger sister, and my wife, while also being part of a larger group traveling with Insan Qolbu, a Hajj and Umroh provider based in Bandung.
 
 ## Umroh Trip
 
 **Dates:** 20 to 27 October 2024  
 **Route:** Jakarta -> Doha -> Al Ula -> Madinah -> Mecca -> Jeddah -> Doha -> Jakarta  
-**Travel group:** My father, my mother, my younger sister, and my wife  
+**Flights:** Round trip with Qatar Airways, with Doha to Jakarta as a Garuda Indonesia codeshare flight  
+**Madinah accommodation:** Deyar Al Eiman Hotel  
+**Mecca accommodation:** Al Safwah Hotel Tower 3  
 **Travel organizer:** Insan Qolbu
 
-## Day 1: Journey from Jakarta to Al Ula
+## Day 1: Exploring Al Ula
 
-**Sunday, 20 October 2024**
+Sunday, 20 October 2024
 
 - **Travel route:** Jakarta -> Doha -> Al Ula
 - Arrive at **Al-Ula International Airport**
 - Visit **Sheikh Saeed Al Abdaldaim**, a historic mosque in Al Ula
 - Explore **Al Ula Old Town**
 - Visit **Jabal Al Fil** (Elephant Rock)
-- Continue to Madinah and arrive at **Al Masjid an Nabawi**
+- Take the bus from **Al Ula** to **Madinah** and arrive near **Al Masjid an Nabawi**
 
 ## Day 2: Al Masjid an Nabawi
 
-**Monday, 21 October 2024**
+Monday, 21 October 2024
 
 - Worship at **Al Masjid an Nabawi**
 - Explore the surroundings:
@@ -43,7 +46,7 @@ An eight-day Umroh trip that started with a stop in Al Ula before continuing to 
 
 ## Day 3: Madinah City Tour
 
-**Tuesday, 22 October 2024**
+Tuesday, 22 October 2024
 
 - Worship at **Al Masjid an Nabawi**
 - Explore the surroundings:
@@ -56,19 +59,19 @@ An eight-day Umroh trip that started with a stop in Al Ula before continuing to 
 
 ## Day 4: Journey to Mecca
 
-**Wednesday, 23 October 2024**
+Wednesday, 23 October 2024
 
 - Worship at **Al Masjid an Nabawi**
 - Explore nearby spots:
   - Visit **As-Safiyyah Museum & Park**
   - Take photos at **Madina Photo Frame**
-- Stop at **Bir Ali** (miqat) for the intention of umrah
+- Stop at **Bir Ali** (miqat) for the intention of umroh
 - Take the **Haramain High-Speed Railway** to Mecca
-- Perform the first umrah at **Masjid Al-Haram**
+- Perform the first umroh at **Masjid Al-Haram**
 
 ## Day 5: Exploring Mecca
 
-**Thursday, 24 October 2024**
+Thursday, 24 October 2024
 
 - Visit **The Clock Towers**
 - Have coffee at **Barn's**
@@ -76,19 +79,19 @@ An eight-day Umroh trip that started with a stop in Al Ula before continuing to 
 - Visit **Jabal Khandama**
 - Enjoy a meal at **Raydan Restaurants**
 
-## Day 6: Mecca City Tour and Second Umrah
+## Day 6: Mecca City Tour and Second Umroh
 
-**Friday, 25 October 2024**
+Friday, 25 October 2024
 
 - Perform Friday prayers at **Masjid Al-Haram**
 - Take a city tour:
   - Visit **Jabal Rahmah**, the site where Prophet Adam and Hawa were reunited
-  - Stop at **Masjid al-Ji'ranah** for the second umrah
-- Perform the second umrah at **Masjid Al-Haram**
+  - Stop at **Masjid al-Ji'ranah** for the second umroh
+- Perform the second umroh at **Masjid Al-Haram**
 
 ## Day 7: Relaxing Day in Mecca
 
-**Saturday, 26 October 2024**
+Saturday, 26 October 2024
 
 - Perform **Tawaf Sunnah** at **Masjid Al-Haram**
 - Explore the surroundings:
@@ -97,11 +100,11 @@ An eight-day Umroh trip that started with a stop in Al Ula before continuing to 
 
 ## Day 8: Departure
 
-**Sunday, 27 October 2024**
+Sunday, 27 October 2024
 
 - Perform **Tawaf Wada** at **Masjid Al-Haram** as the farewell tawaf
 - Take a bus from Mecca to Jeddah
 - Visit **Corniche Balad** in Jeddah:
   - Shop for souvenirs and gifts
   - Enjoy local meals at nearby restaurants
-- Depart from Jeddah -> Doha -> Jakarta
+- Depart from Jeddah to Jakarta via Doha

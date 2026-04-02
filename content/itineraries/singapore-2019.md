@@ -7,6 +7,7 @@ slug = "singapore-2019"
 summary = "My first and only fully solo trip, 28 February to 3 March 2019, with a compact Singapore itinerary covering Kampong Glam, Sentosa, Marina Bay, and Chinatown."
 categories = ["travel"]
 destinations = ["singapore"]
+country = "Singapore"
 +++
 
 This was my first and, so far, only fully solo trip. It was also my second trip abroad, which made Singapore feel both exciting and manageable at the same time.
@@ -15,25 +16,25 @@ This was my first and, so far, only fully solo trip. It was also my second trip 
 
 **Dates:** 28 February to 3 March 2019  
 **Flight:** Scoot  
-**Accommodation:** Wanderloft Capsule Hostel  
+**Accommodation:** Wanderloft Capsule Hostel, near Clarke Quay  
 **Flight + accommodation cost:** 809K IDR (Traveloka PayLater promo)
 
 ## Day 1: Arrival
 
-**28 February**
+Thursday, 28 February 2019
 
 - Changi Terminal 2
 - Wanderloft Capsule Hostel
 
 ## Day 2: Kampong Glam and the City
 
-**1 March**
+Friday, 1 March 2019
 
 - Wanderloft Capsule Hostel
 - Kampong Glam
 - Little India
 - Bugis
-- Kampong Glam (Sultan Mosque)
+- Kampong Glam (Friday prayer at Sultan Mosque)
 - Orchard
 - Fort Canning
 - Singapore National Museum
@@ -41,17 +42,18 @@ This was my first and, so far, only fully solo trip. It was also my second trip 
 - Clarke Quay
 - Wanderloft Capsule Hostel
 
-## Day 3: Sentosa and Marina Bay
+## Day 3: Sentosa and Walking Tours
 
-**2 March**
+Saturday, 2 March 2019
 
 - Wanderloft Capsule Hostel
-- Chinatown
+- Chinatown (walking tour)
 - Vivocity
 - Sentosa
-- Raffles Place
-- Merlion Park
-- Singapore National Gallery
+- Singapore City walking tour:
+  - Raffles Place
+  - Merlion Park
+  - Singapore National Gallery
 - Marina Bay Sands
 - Gardens by the Bay
 - Clarke Quay
@@ -59,7 +61,7 @@ This was my first and, so far, only fully solo trip. It was also my second trip 
 
 ## Day 4: Departure
 
-**3 March**
+Sunday, 3 March 2019
 
 - Wanderloft Capsule Hostel
 - Changi Terminal 2
@@ -70,4 +72,4 @@ This was my first and, so far, only fully solo trip. It was also my second trip 
 ## Notes
 
 - In Singapore, the MRT network is massive, but for most of this trip I still used buses. Buses were also very convenient and often involved less walking than the MRT.
-- If you are traveling solo, try joining a walking tour. I joined two walking tours in Singapore with the same provider, and by coincidence the tour guide was also the same. They were promoted as free walking tours, but I gave a tip once at the end, which in my mind covered both experiences. Walking tours are also a good way to meet other tourists from different countries and sometimes even make new friends.
+- If you are traveling solo, try joining a walking tour. I joined two walking tours in Singapore with the same provider, Monster Day Tours, and by coincidence the tour guide was also the same. They were promoted as free walking tours, but I gave a tip once at the end, which in my mind covered both experiences. Walking tours are also a good way to meet other tourists from different countries and sometimes even make new friends.
