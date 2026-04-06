@@ -8,7 +8,7 @@ summary = "About Bobby Ananta Dioriza, a Technical Lead and Software Engineer wh
 
 I'm Bobby Ananta Dioriza.
 
-In professional life, I work as a **Technical Lead / Software Engineer**. But this blog is really meant to show the other side of me, the side that is easier to explain through what I watch, where I go, and what I keep returning to.
+In professional life, I work as a **Technical Lead / Software Engineer**. If you want the more professional version of me, you can also visit my [resume](https://bobby.dioriza.com). But this blog is really meant to show the other side of me, the side that is easier to explain through what I watch, where I go, and what I keep returning to.
 
 I like **movies**, **series**, **travel**, and **football**. That is the real backbone of this site.
 
