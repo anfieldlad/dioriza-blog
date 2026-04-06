@@ -1,16 +1,26 @@
-baseURL = "https://example.org/"
+baseURL = "https://blog.dioriza.com/"
 languageCode = "en-us"
 title = "Bobby Dioriza"
 timezone = "Asia/Jakarta"
+enableRobotsTXT = true
 
 [pagination]
   pagerSize = 8
+
+[sitemap]
+  changeFreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
 
 [params]
   author = "Bobby Dioriza"
   description = "A personal blog about yearly movie and series reviews, plus trip itineraries."
   intro = "Yearly watchlists, travel plans, and a few personal notes."
   email = "bobalonso99@gmail.com"
+  keywords = ["Bobby Dioriza", "movie reviews", "series reviews", "travel itineraries", "personal blog"]
+  defaultImage = "/images/social-card-default.png"
+  siteName = "Bobby Dioriza Blog"
+  locale = "en_US"
 
 [permalinks]
   reviews = "/reviews/:slug/"

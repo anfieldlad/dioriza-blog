@@ -1,0 +1,144 @@
+{{ $siteTitle := site.Title }}
+{{ $siteName := site.Params.siteName | default $siteTitle }}
+{{ $title := cond .IsHome $siteTitle (printf "%s | %s" .Title $siteTitle) }}
+{{ $rawDescription := "" }}
+{{ if .Description }}
+  {{ $rawDescription = .Description }}
+{{ else if .IsHome }}
+  {{ $rawDescription = site.Params.description }}
+{{ else if .Summary }}
+  {{ $rawDescription = .Summary }}
+{{ else }}
+  {{ $rawDescription = site.Params.description }}
+{{ end }}
+{{ $description := $rawDescription | plainify | htmlUnescape | replaceRE `\s+` " " | strings.TrimSpace | truncate 160 }}
+{{ $canonical := .Permalink }}
+{{ $locale := site.Params.locale | default "en_US" }}
+{{ $defaultImage := site.Params.defaultImage | default "/favicon.png" | absURL }}
+{{ $image := $defaultImage }}
+{{ with .Params.images }}
+  {{ with index . 0 }}
+    {{ $image = . | absURL }}
+  {{ end }}
+{{ end }}
+{{ $keywordScratch := newScratch }}
+{{ $keywordScratch.Set "items" (slice) }}
+{{ with site.Params.keywords }}
+  {{ range . }}
+    {{ $keywordScratch.Add "items" (slice .) }}
+  {{ end }}
+{{ end }}
+{{ with .Params.tags }}
+  {{ range . }}
+    {{ $keywordScratch.Add "items" (slice .) }}
+  {{ end }}
+{{ end }}
+{{ with .Params.categories }}
+  {{ range . }}
+    {{ $keywordScratch.Add "items" (slice .) }}
+  {{ end }}
+{{ end }}
+{{ with .Params.destinations }}
+  {{ range . }}
+    {{ $keywordScratch.Add "items" (slice .) }}
+  {{ end }}
+{{ end }}
+{{ with .Params.country }}
+  {{ $keywordScratch.Add "items" (slice .) }}
+{{ end }}
+{{ $keywords := uniq ($keywordScratch.Get "items") }}
+{{ $keywords = uniq $keywords }}
+
+<title>{{ $title }}</title>
+<meta name="description" content="{{ $description }}">
+<meta name="author" content="{{ site.Params.author }}">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#f7f3ec">
+{{ with $keywords }}
+  <meta name="keywords" content="{{ delimit . ", " }}">
+{{ end }}
+<link rel="canonical" href="{{ $canonical }}">
+{{ with .OutputFormats.Get "RSS" }}
+  <link rel="alternate" type="{{ .MediaType.Type }}" title="{{ $siteName }}" href="{{ .Permalink }}">
+{{ end }}
+
+<meta property="og:site_name" content="{{ $siteName }}">
+<meta property="og:title" content="{{ $title }}">
+<meta property="og:description" content="{{ $description }}">
+<meta property="og:url" content="{{ $canonical }}">
+<meta property="og:locale" content="{{ $locale }}">
+<meta property="og:image" content="{{ $image }}">
+<meta property="og:image:alt" content="{{ .Title | default $siteName }}">
+{{ if .IsPage }}
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+  <meta property="article:modified_time" content="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}">
+  {{ with .Params.tags }}
+    {{ range . }}
+      <meta property="article:tag" content="{{ . }}">
+    {{ end }}
+  {{ end }}
+{{ else }}
+  <meta property="og:type" content="website">
+{{ end }}
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ $title }}">
+<meta name="twitter:description" content="{{ $description }}">
+<meta name="twitter:image" content="{{ $image }}">
+
+{{ $personSchema := dict
+  "@context" "https://schema.org"
+  "@type" "Person"
+  "@id" (printf "%s#person" site.BaseURL)
+  "name" (site.Params.author | default $siteTitle)
+  "url" site.BaseURL
+  "email" (site.Params.email | default "")
+}}
+
+{{ $websiteSchema := dict
+  "@context" "https://schema.org"
+  "@type" "WebSite"
+  "@id" (printf "%s#website" site.BaseURL)
+  "url" site.BaseURL
+  "name" $siteName
+  "description" (site.Params.description | plainify | htmlUnescape)
+  "publisher" (dict "@id" (printf "%s#person" site.BaseURL))
+}}
+
+{{ $pageType := "WebPage" }}
+{{ if .IsPage }}
+  {{ $pageType = "Article" }}
+{{ else if or .IsHome (eq .Kind "section") (eq .Kind "taxonomy") (eq .Kind "term") }}
+  {{ $pageType = "CollectionPage" }}
+{{ end }}
+
+{{ $pageSchema := dict
+  "@context" "https://schema.org"
+  "@type" $pageType
+  "@id" (printf "%s#webpage" $canonical)
+  "url" $canonical
+  "name" $title
+  "description" $description
+  "isPartOf" (dict "@id" (printf "%s#website" site.BaseURL))
+}}
+
+{{ if .IsPage }}
+  {{ $pageSchema = merge $pageSchema (dict
+    "headline" .Title
+    "datePublished" (.Date.Format "2006-01-02T15:04:05Z07:00")
+    "dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00")
+    "author" (dict "@id" (printf "%s#person" site.BaseURL))
+    "publisher" (dict "@id" (printf "%s#person" site.BaseURL))
+    "mainEntityOfPage" (dict "@id" (printf "%s#webpage" $canonical))
+    "wordCount" .WordCount
+    "image" $image
+  ) }}
+  {{ with $keywords }}
+    {{ $pageSchema = merge $pageSchema (dict "keywords" .) }}
+  {{ end }}
+{{ end }}
+
+<script type="application/ld+json">{{ $personSchema | jsonify | safeJS }}</script>
+<script type="application/ld+json">{{ $websiteSchema | jsonify | safeJS }}</script>
+<script type="application/ld+json">{{ $pageSchema | jsonify | safeJS }}</script>
