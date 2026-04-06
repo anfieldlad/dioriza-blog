@@ -41,7 +41,7 @@ a {
 .footer-inner {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   gap: 1rem;
   padding: 1rem 0;
 }
@@ -333,6 +333,7 @@ a {
 }
 
 .footer-inner {
+  justify-content: center;
   color: var(--muted);
   font-size: 0.95rem;
   text-align: center;
