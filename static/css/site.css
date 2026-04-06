@@ -162,7 +162,7 @@ a {
 .home-copy,
 .section-copy,
 .article-content {
-  max-width: 64ch;
+  max-width: 78ch;
 }
 
 .eyebrow,
@@ -242,6 +242,11 @@ a {
   padding-bottom: 1.5rem;
   border-bottom: 1px solid var(--line);
   margin-bottom: 2rem;
+}
+
+.article:not(.article-review) .article-content,
+.article:not(.article-review) .prose {
+  max-width: 78ch;
 }
 
 .article-meta {
