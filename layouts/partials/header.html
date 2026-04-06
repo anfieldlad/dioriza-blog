@@ -1,12 +1,18 @@
-﻿<header class="site-header">
+<header class="site-header">
   <div class="shell header-inner">
     <a class="brand" href="/">{{ site.Title }}</a>
-    <nav class="nav">
-      <a href="/">Posts</a>
-      <a href="/reviews/">Reviews</a>
-      <a href="/itineraries/">Itineraries</a>
-      <a href="/thoughts/">Thoughts</a>
-      <a href="/about/">About</a>
-    </nav>
+    <div class="header-actions">
+      <nav class="nav">
+        <a href="/">Posts</a>
+        <a href="/reviews/">Reviews</a>
+        <a href="/itineraries/">Itineraries</a>
+        <a href="/thoughts/">Thoughts</a>
+        <a href="/about/">About</a>
+      </nav>
+      <button class="theme-toggle" type="button" data-theme-toggle aria-pressed="false" aria-label="Switch to night mode">
+        <span class="theme-toggle-icon" aria-hidden="true"></span>
+        <span data-theme-label>Night mode</span>
+      </button>
+    </div>
   </div>
 </header>

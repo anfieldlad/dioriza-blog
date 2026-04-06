@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}</title>
     <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
+    <script>
+      (function () {
+        var savedTheme = localStorage.getItem("theme-preference");
+        var theme = savedTheme === "night" ? "night" : "day";
+        document.documentElement.setAttribute("data-theme", theme);
+      })();
+    </script>
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="icon" type="image/png" href="/favicon.png">
     <link rel="stylesheet" href="/css/site.css">
@@ -15,5 +22,31 @@
       {{ block "main" . }}{{ end }}
     </main>
     {{ partial "footer.html" . }}
+    <script>
+      (function () {
+        var root = document.documentElement;
+        var toggle = document.querySelector("[data-theme-toggle]");
+
+        if (!toggle) {
+          return;
+        }
+
+        function applyTheme(theme) {
+          var isNight = theme === "night";
+          root.setAttribute("data-theme", isNight ? "night" : "day");
+          toggle.setAttribute("aria-pressed", String(isNight));
+          toggle.setAttribute("aria-label", isNight ? "Switch to day mode" : "Switch to night mode");
+          toggle.querySelector("[data-theme-label]").textContent = isNight ? "Day mode" : "Night mode";
+        }
+
+        applyTheme(root.getAttribute("data-theme"));
+
+        toggle.addEventListener("click", function () {
+          var nextTheme = root.getAttribute("data-theme") === "night" ? "day" : "night";
+          localStorage.setItem("theme-preference", nextTheme);
+          applyTheme(nextTheme);
+        });
+      })();
+    </script>
   </body>
 </html>
