@@ -14,8 +14,16 @@ years = ["2026"]
 
 <p><strong>Tunggu Aku Sukses Nanti</strong><br />My Rating: 7.5<br />Plaza Blok M XXI</p>
 
+<p><strong>Ghost In The Cell</strong><br />My Rating: 8.5<br />CGV Pacific Place</p>
+
 <hr />
 
 <p><strong>High Potential: Season 2</strong><br />My Rating: 7<br />Disney+</p>
 
 <p><strong>One Piece: Season 2</strong><br />My Rating: 8<br />Netflix</p>
+
+<p><strong>Peaky Blinders: Season 6</strong><br />My Rating: 8<br />Netflix</p>
+
+<p><strong>Georgie &amp; Mandy's First Marriage: Season 2</strong><br />My Rating: 7.5<br />Netflix</p>
+
+<p><strong>Leanne: Season 1</strong><br />My Rating: 7.5<br />Netflix</p>
