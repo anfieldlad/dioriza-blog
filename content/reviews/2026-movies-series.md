@@ -22,7 +22,20 @@ years = ["2026"]
 
 <p><strong>One Piece: Season 2</strong><br />My Rating: 8<br />Netflix</p>
 
-<p><strong>Peaky Blinders: Season 6</strong><br />My Rating: 8<br />Netflix</p>
+<article class="watch-entry watch-entry-featured">
+  <div class="watch-entry-main">
+    <h3 class="watch-title"><strong>Peaky Blinders: Season 6</strong></h3>
+    <div class="watch-meta">
+      <span class="watch-rating">&#9733; 8</span>
+      <span class="watch-source">Netflix</span>
+    </div>
+  </div>
+  <div class="watch-review">
+    <p>After watching the final season of Peaky Blinders, what I enjoyed most were the scenes accompanied by music. The combination of visuals, atmosphere, and soundtrack made them especially satisfying to watch, and for me that remains one of the show's biggest strengths.</p>
+
+    <p>I also liked how Tommy Shelby always managed to turn things around whenever he was cornered. Even though that pattern had become predictable, it was still interesting to watch. What surprised me most was that he did not die from his illness. I actually think the ending would have been stronger if he had, because it would have felt more fitting for his character arc.</p>
+  </div>
+</article>
 
 <p><strong>Georgie &amp; Mandy's First Marriage: Season 2</strong><br />My Rating: 7.5<br />Netflix</p>
 

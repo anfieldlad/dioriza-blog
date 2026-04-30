@@ -26,11 +26,11 @@
         {{ $series := delimit (after 1 $parts) "" }}
 
         {{ $moviesHTML := replaceRE `(?s)<!--.*?-->` "" $movies }}
-        {{ $moviesHTML = replaceRE `(?s)<p>\s*((?:<a[^>]*>.*?</a>|<strong>.*?</strong>))\s*<br ?/?>\s*My Rating:\s*([0-9.]+)\s*<br ?/?>\s*(.*?)\s*</p>` `<article class="watch-entry"><h3 class="watch-title">$1</h3><div class="watch-meta"><span class="watch-rating">&#9733; $2</span><span class="watch-source">$3</span></div></article>` $moviesHTML }}
+        {{ $moviesHTML = replaceRE `(?s)<p>\s*((?:<a[^>]*>.*?</a>|<strong>.*?</strong>))\s*<br ?/?>\s*My Rating:\s*([0-9.]+)\s*<br ?/?>\s*([^<]+)\s*</p>` `<article class="watch-entry"><div class="watch-entry-main"><h3 class="watch-title">$1</h3><div class="watch-meta"><span class="watch-rating">&#9733; $2</span><span class="watch-source">$3</span></div></div></article>` $moviesHTML }}
         {{ $moviesHTML = replaceRE `(?s)<p>\s*</p>` "" $moviesHTML }}
 
         {{ $seriesHTML := replaceRE `(?s)<!--.*?-->` "" $series }}
-        {{ $seriesHTML = replaceRE `(?s)<p>\s*((?:<a[^>]*>.*?</a>|<strong>.*?</strong>))\s*<br ?/?>\s*My Rating:\s*([0-9.]+)\s*<br ?/?>\s*(.*?)\s*</p>` `<article class="watch-entry"><h3 class="watch-title">$1</h3><div class="watch-meta"><span class="watch-rating">&#9733; $2</span><span class="watch-source">$3</span></div></article>` $seriesHTML }}
+        {{ $seriesHTML = replaceRE `(?s)<p>\s*((?:<a[^>]*>.*?</a>|<strong>.*?</strong>))\s*<br ?/?>\s*My Rating:\s*([0-9.]+)\s*<br ?/?>\s*([^<]+)\s*</p>` `<article class="watch-entry"><div class="watch-entry-main"><h3 class="watch-title">$1</h3><div class="watch-meta"><span class="watch-rating">&#9733; $2</span><span class="watch-source">$3</span></div></div></article>` $seriesHTML }}
         {{ $seriesHTML = replaceRE `(?s)<p>\s*</p>` "" $seriesHTML }}
 
         <div class="review-sections">
