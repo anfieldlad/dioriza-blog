@@ -10,11 +10,11 @@ year = "2026"
 years = ["2026"]
 +++
 
-<p><strong>Na Willa</strong><br />My Rating: 8<br />Trans Studio Mall Bandung XXI</p>
+<p><a href="https://www.imdb.com/title/tt38607663/"><strong>Na Willa</strong></a><br />My Rating: 8<br />Trans Studio Mall Bandung XXI</p>
 
-<p><strong>Tunggu Aku Sukses Nanti</strong><br />My Rating: 7.5<br />Plaza Blok M XXI</p>
+<p><a href="https://www.imdb.com/title/tt39292550/"><strong>Tunggu Aku Sukses Nanti</strong></a><br />My Rating: 7.5<br />Plaza Blok M XXI</p>
 
-<p><strong>Ghost In The Cell</strong><br />My Rating: 8.5<br />CGV Pacific Place</p>
+<p><a href="https://www.imdb.com/title/tt9000310/"><strong>Ghost In The Cell</strong></a><br />My Rating: 8.5<br />CGV Pacific Place</p>
 
 <hr />
 
@@ -24,7 +24,7 @@ years = ["2026"]
 
 <article class="watch-entry watch-entry-featured">
   <div class="watch-entry-main">
-    <h3 class="watch-title"><strong>Peaky Blinders: Season 6</strong></h3>
+    <h3 class="watch-title"><a href="https://www.rottentomatoes.com/tv/peaky_blinders/s06"><strong>Peaky Blinders: Season 6</strong></a></h3>
     <div class="watch-meta">
       <span class="watch-rating">&#9733; 8</span>
       <span class="watch-source">Netflix</span>
@@ -37,6 +37,6 @@ years = ["2026"]
   </div>
 </article>
 
-<p><strong>Georgie &amp; Mandy's First Marriage: Season 2</strong><br />My Rating: 7.5<br />Netflix</p>
+<p><a href="https://www.rottentomatoes.com/tv/georgie_and_mandys_first_marriage/s02"><strong>Georgie &amp; Mandy's First Marriage: Season 2</strong></a><br />My Rating: 7.5<br />Netflix</p>
 
-<p><strong>Leanne: Season 1</strong><br />My Rating: 7.5<br />Netflix</p>
+<p><a href="https://www.rottentomatoes.com/tv/leanne/s01"><strong>Leanne: Season 1</strong></a><br />My Rating: 7.5<br />Netflix</p>
