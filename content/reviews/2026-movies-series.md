@@ -18,9 +18,9 @@ years = ["2026"]
 
 <hr />
 
-<p><strong>High Potential: Season 2</strong><br />My Rating: 7<br />Disney+</p>
+<p><a href="https://www.rottentomatoes.com/tv/high_potential"><strong>High Potential: Season 2</strong></a><br />My Rating: 7<br />Disney+</p>
 
-<p><strong>One Piece: Season 2</strong><br />My Rating: 8<br />Netflix</p>
+<p><a href="https://static.rottentomatoes.com/tv/one_piece_2023/s02"><strong>One Piece: Season 2</strong></a><br />My Rating: 8<br />Netflix</p>
 
 <article class="watch-entry watch-entry-featured">
   <div class="watch-entry-main">
