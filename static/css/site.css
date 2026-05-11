@@ -357,9 +357,12 @@ a {
 }
 
 .watch-entry-featured {
-  grid-column: 1 / -1;
   gap: 1rem;
   background: var(--surface);
+}
+
+.watch-entry-featured.is-open {
+  grid-column: 1 / -1;
 }
 
 .watch-entry-featured .watch-entry-main {
@@ -367,11 +370,44 @@ a {
   gap: 0.7rem;
 }
 
+.watch-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  min-height: 2rem;
+  padding: 0.45rem 0.75rem;
+  border-radius: 999px;
+  background: var(--soft-surface);
+  color: var(--body-copy);
+  font-size: 0.9rem;
+  line-height: 1;
+  cursor: pointer;
+  user-select: none;
+  border: 1px solid var(--line);
+}
+
+.watch-toggle:hover {
+  background: var(--line);
+}
+
+.watch-toggle-icon {
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.watch-entry-featured.is-open .watch-toggle-icon {
+  transform: rotate(180deg);
+}
+
 .watch-review {
-  display: grid;
+  display: none;
   gap: 0.85rem;
   padding-top: 0.95rem;
   border-top: 1px solid var(--line);
+}
+
+.watch-entry-featured.is-open .watch-review {
+  display: grid;
 }
 
 .watch-review p {

@@ -65,4 +65,22 @@
       </div>
     {{ end }}
   </article>
+
+  {{ if eq .Type "reviews" }}
+  <script>
+    document.querySelectorAll('.watch-entry-featured').forEach(function(entry) {
+      var meta = entry.querySelector('.watch-meta');
+      if (!meta || !entry.querySelector('.watch-review')) return;
+      var toggle = document.createElement('button');
+      toggle.type = 'button';
+      toggle.className = 'watch-toggle';
+      toggle.innerHTML = '<span class="watch-toggle-label">Read review</span> <span class="watch-toggle-icon">&#9660;</span>';
+      meta.appendChild(toggle);
+      toggle.addEventListener('click', function() {
+        entry.classList.toggle('is-open');
+        toggle.querySelector('.watch-toggle-label').textContent = entry.classList.contains('is-open') ? 'Hide review' : 'Read review';
+      });
+    });
+  </script>
+  {{ end }}
 {{ end }}

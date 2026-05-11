@@ -31,7 +31,7 @@ years = ["2026"]
     </div>
   </div>
   <div class="watch-review">
-    <p>After watching the final season of Peaky Blinders, what I enjoyed most were the scenes accompanied by music. The combination of visuals, atmosphere, and soundtrack made them especially satisfying to watch, and for me that remains one of the show's biggest strengths.</p>
+    <p>Finally finished the final season of Peaky Blinders—four years late, but better late than never. What I enjoyed most throughout the series were the scenes driven by the music. The combination of visuals, atmosphere, and soundtrack is incredibly satisfying, and for me, that remains the show's greatest strength.</p>
 
     <p>I also liked how Tommy Shelby always managed to turn things around whenever he was cornered. Even though that pattern had become predictable, it was still interesting to watch. What surprised me most was that he did not die from his illness. I actually think the ending would have been stronger if he had, because it would have felt more fitting for his character arc.</p>
   </div>
@@ -40,3 +40,18 @@ years = ["2026"]
 <p><a href="https://www.rottentomatoes.com/tv/georgie_and_mandys_first_marriage/s02"><strong>Georgie &amp; Mandy's First Marriage: Season 2</strong></a><br />My Rating: 7.5<br />Netflix</p>
 
 <p><a href="https://www.rottentomatoes.com/tv/leanne/s01"><strong>Leanne: Season 1</strong></a><br />My Rating: 7.5<br />Netflix</p>
+
+<p><a href="https://www.rottentomatoes.com/tv/frieren_beyond_journeys_end/s02"><strong>Frieren: Season 2</strong></a><br />My Rating: 7.5<br />Netflix</p>
+
+<article class="watch-entry watch-entry-featured">
+  <div class="watch-entry-main">
+    <h3 class="watch-title"><a href="https://www.rottentomatoes.com/tv/daredevil_born_again/s02"><strong>Daredevil: Born Again: Season 2</strong></a></h3>
+    <div class="watch-meta">
+      <span class="watch-rating">&#9733; 7</span>
+      <span class="watch-source">Disney+</span>
+    </div>
+  </div>
+  <div class="watch-review">
+    <p>Born Again Season 2 ultimately fails as a hero's journey because Matt's obsession with moral purity turns him into a dangerous enabler. By saving Fisk from Bullseye only to watch him slaughter hundreds more, Matt prioritizes his own "clean hands" over the lives of the innocent people he swore to protect. Letting a mass murderer walk free while Matt rots in a cell isn't justice—it's a betrayal that proves his rigid principles have become more destructive than the villains he fights.</p>
+  </div>
+</article>

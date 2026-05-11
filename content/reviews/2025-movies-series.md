@@ -141,3 +141,8 @@ years = ["2025"]
 <p><a href="https://www.rottentomatoes.com/tv/pluribus/s01"><strong>Pluribus: Season 1
 </strong></a><br>My Rating: 8<br>Apple TV+</p>
 <!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><a href="https://www.rottentomatoes.com/tv/stranger_things/s05"><strong>Stranger Things: Season 5
+</strong></a><br>My Rating: 6<br>Netflix</p>
+<!-- /wp:paragraph -->
