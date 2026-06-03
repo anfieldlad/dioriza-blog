@@ -20,7 +20,7 @@ years = ["2026"]
 
 <hr />
 
-<p><a href="https://www.rottentomatoes.com/tv/high_potential"><strong>High Potential: Season 2</strong></a> (2025)<br />My Rating: 7<br />Disney+</p>
+<p><a href="https://www.rottentomatoes.com/tv/high_potential"><strong>High Potential: Season 2</strong></a><br />My Rating: 7<br />Disney+</p>
 
 <p><a href="https://static.rottentomatoes.com/tv/one_piece_2023/s02"><strong>One Piece: Season 2</strong></a><br />My Rating: 8<br />Netflix</p>
 
@@ -39,7 +39,7 @@ years = ["2026"]
   </div>
 </article>
 
-<p><a href="https://www.rottentomatoes.com/tv/georgie_and_mandys_first_marriage/s02"><strong>Georgie &amp; Mandy's First Marriage: Season 2</strong></a> (2025)<br />My Rating: 7.5<br />Netflix</p>
+<p><a href="https://www.rottentomatoes.com/tv/georgie_and_mandys_first_marriage/s02"><strong>Georgie &amp; Mandy's First Marriage: Season 2</strong></a><br />My Rating: 7.5<br />Netflix</p>
 
 <p><a href="https://www.rottentomatoes.com/tv/leanne/s01"><strong>Leanne: Season 1</strong></a> (2025)<br />My Rating: 7.5<br />Netflix</p>
 
