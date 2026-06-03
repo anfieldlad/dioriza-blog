@@ -16,17 +16,17 @@ years = ["2026"]
 
 <p><a href="https://www.imdb.com/title/tt9000310/"><strong>Ghost In The Cell</strong></a><br />My Rating: 8.5<br />CGV Pacific Place</p>
 
-<p><a href="https://www.imdb.com/title/tt29471182/"><strong>Exhuma</strong></a><br />My Rating: 8<br />Viu</p>
+<p><a href="https://www.imdb.com/title/tt29471182/"><strong>Exhuma</strong></a> (2024)<br />My Rating: 8<br />Viu</p>
 
 <hr />
 
-<p><a href="https://www.rottentomatoes.com/tv/high_potential"><strong>High Potential: Season 2</strong></a><br />My Rating: 7<br />Disney+</p>
+<p><a href="https://www.rottentomatoes.com/tv/high_potential"><strong>High Potential: Season 2</strong></a> (2025)<br />My Rating: 7<br />Disney+</p>
 
 <p><a href="https://static.rottentomatoes.com/tv/one_piece_2023/s02"><strong>One Piece: Season 2</strong></a><br />My Rating: 8<br />Netflix</p>
 
 <article class="watch-entry watch-entry-featured">
   <div class="watch-entry-main">
-    <h3 class="watch-title"><a href="https://www.rottentomatoes.com/tv/peaky_blinders/s06"><strong>Peaky Blinders: Season 6</strong></a></h3>
+    <h3 class="watch-title"><a href="https://www.rottentomatoes.com/tv/peaky_blinders/s06"><strong>Peaky Blinders: Season 6</strong></a> (2022)</h3>
     <div class="watch-meta">
       <span class="watch-rating">&#9733; 8</span>
       <span class="watch-source">Netflix</span>
@@ -39,9 +39,9 @@ years = ["2026"]
   </div>
 </article>
 
-<p><a href="https://www.rottentomatoes.com/tv/georgie_and_mandys_first_marriage/s02"><strong>Georgie &amp; Mandy's First Marriage: Season 2</strong></a><br />My Rating: 7.5<br />Netflix</p>
+<p><a href="https://www.rottentomatoes.com/tv/georgie_and_mandys_first_marriage/s02"><strong>Georgie &amp; Mandy's First Marriage: Season 2</strong></a> (2025)<br />My Rating: 7.5<br />Netflix</p>
 
-<p><a href="https://www.rottentomatoes.com/tv/leanne/s01"><strong>Leanne: Season 1</strong></a><br />My Rating: 7.5<br />Netflix</p>
+<p><a href="https://www.rottentomatoes.com/tv/leanne/s01"><strong>Leanne: Season 1</strong></a> (2025)<br />My Rating: 7.5<br />Netflix</p>
 
 <p><a href="https://www.rottentomatoes.com/tv/frieren_beyond_journeys_end/s02"><strong>Frieren: Season 2</strong></a><br />My Rating: 7.5<br />Netflix</p>
 
