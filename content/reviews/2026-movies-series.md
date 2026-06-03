@@ -16,6 +16,8 @@ years = ["2026"]
 
 <p><a href="https://www.imdb.com/title/tt9000310/"><strong>Ghost In The Cell</strong></a><br />My Rating: 8.5<br />CGV Pacific Place</p>
 
+<p><a href="https://www.imdb.com/title/tt29471182/"><strong>Exhuma</strong></a><br />My Rating: 8<br />Viu</p>
+
 <hr />
 
 <p><a href="https://www.rottentomatoes.com/tv/high_potential"><strong>High Potential: Season 2</strong></a><br />My Rating: 7<br />Disney+</p>
@@ -55,3 +57,7 @@ years = ["2026"]
     <p>Born Again Season 2 ultimately fails as a hero's journey because Matt's obsession with moral purity turns him into a dangerous enabler. By saving Fisk from Bullseye only to watch him slaughter hundreds more, Matt prioritizes his own "clean hands" over the lives of the innocent people he swore to protect. Letting a mass murderer walk free while Matt rots in a cell isn't justice—it's a betrayal that proves his rigid principles have become more destructive than the villains he fights.</p>
   </div>
 </article>
+
+<p><a href="https://www.rottentomatoes.com/tv/if_wishes_could_kill"><strong>If Wishes Could Kill: Season 1</strong></a><br />My Rating: 8.5<br />Netflix</p>
+
+<p><a href="https://www.rottentomatoes.com/tv/the_boroughs"><strong>The Boroughs: Season 1</strong></a><br />My Rating: 8<br />Netflix</p>
