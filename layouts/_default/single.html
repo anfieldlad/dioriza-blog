@@ -68,17 +68,109 @@
 
   {{ if eq .Type "reviews" }}
   <script>
+    document.querySelectorAll('.review-section').forEach(function(section) {
+      var entries = section.querySelectorAll('.watch-entry');
+      if (!entries.length) return;
+      var ratings = [];
+      entries.forEach(function(entry) {
+        var ratingEl = entry.querySelector('.watch-rating');
+        if (!ratingEl) return;
+        var m = ratingEl.textContent.match(/([0-9.]+)/);
+        if (!m) return;
+        var r = parseFloat(m[1]);
+        if (isNaN(r)) return;
+        ratings.push(r);
+      });
+      if (!ratings.length) return;
+      var avg = ratings.reduce(function(a, b) { return a + b; }, 0) / ratings.length;
+      var top = Math.max.apply(null, ratings);
+      var stats = document.createElement('div');
+      stats.className = 'review-section-stats';
+      function addStat(value, label) {
+        var item = document.createElement('span');
+        item.className = 'review-stat';
+        var val = document.createElement('span');
+        val.className = 'review-stat-value';
+        val.textContent = value;
+        item.appendChild(val);
+        item.appendChild(document.createTextNode(' ' + label));
+        stats.appendChild(item);
+      }
+      addStat(ratings.length, ratings.length === 1 ? 'title' : 'titles');
+      if (ratings.length > 1) {
+        addStat(avg.toFixed(1), 'avg');
+        addStat(top, 'highest');
+      }
+
+      var grid = section.querySelector('.review-grid');
+      if (grid && ratings.length > 1) {
+        var items = Array.prototype.slice.call(grid.querySelectorAll('.watch-entry'));
+        var original = items.slice();
+        function ratingOf(entry) {
+          var el = entry.querySelector('.watch-rating');
+          if (!el) return -Infinity;
+          var m = el.textContent.match(/([0-9.]+)/);
+          return m ? parseFloat(m[1]) : -Infinity;
+        }
+        var byRating = items.slice().sort(function(a, b) {
+          return ratingOf(b) - ratingOf(a);
+        });
+        var sort = document.createElement('div');
+        sort.className = 'review-sort';
+        sort.setAttribute('role', 'group');
+        sort.setAttribute('aria-label', 'Sort entries');
+        var current = 'recent';
+        function makeBtn(mode, label) {
+          var btn = document.createElement('button');
+          btn.type = 'button';
+          btn.className = 'review-sort-btn';
+          btn.textContent = label;
+          btn.setAttribute('aria-pressed', String(mode === current));
+          btn.addEventListener('click', function() {
+            if (current === mode) return;
+            current = mode;
+            var order = mode === 'rating' ? byRating : original;
+            order.forEach(function(entry) { grid.appendChild(entry); });
+            sort.querySelectorAll('.review-sort-btn').forEach(function(b) {
+              b.setAttribute('aria-pressed', String(b === btn));
+            });
+          });
+          return btn;
+        }
+        sort.appendChild(makeBtn('recent', 'Recent'));
+        sort.appendChild(makeBtn('rating', 'Rating'));
+        stats.appendChild(sort);
+      }
+
+      var head = section.querySelector('.review-section-head');
+      if (head && head.parentNode) head.parentNode.insertBefore(stats, head.nextSibling);
+    });
+
     document.querySelectorAll('.watch-entry-featured').forEach(function(entry) {
       var meta = entry.querySelector('.watch-meta');
-      if (!meta || !entry.querySelector('.watch-review')) return;
+      var review = entry.querySelector('.watch-review');
+      if (!meta || !review) return;
       var toggle = document.createElement('button');
       toggle.type = 'button';
       toggle.className = 'watch-toggle';
       toggle.innerHTML = '<span class="watch-toggle-label">Read review</span> <span class="watch-toggle-icon">&#9660;</span>';
       meta.appendChild(toggle);
       toggle.addEventListener('click', function() {
-        entry.classList.toggle('is-open');
-        toggle.querySelector('.watch-toggle-label').textContent = entry.classList.contains('is-open') ? 'Hide review' : 'Read review';
+        var isOpen = entry.classList.toggle('is-open');
+        toggle.querySelector('.watch-toggle-label').textContent = isOpen ? 'Hide review' : 'Read review';
+        if (isOpen) {
+          review.style.maxHeight = review.scrollHeight + 'px';
+          var onEnd = function(e) {
+            if (e.propertyName !== 'max-height') return;
+            review.style.maxHeight = 'none';
+            review.removeEventListener('transitionend', onEnd);
+          };
+          review.addEventListener('transitionend', onEnd);
+        } else {
+          review.style.maxHeight = review.scrollHeight + 'px';
+          review.offsetHeight;
+          review.style.maxHeight = '0';
+        }
       });
     });
   </script>
