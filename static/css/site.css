@@ -365,7 +365,7 @@ a {
   grid-column: 1 / -1;
 }
 
-.watch-entry-featured .watch-entry-main {
+.watch-entry-main {
   display: grid;
   gap: 0.7rem;
 }
