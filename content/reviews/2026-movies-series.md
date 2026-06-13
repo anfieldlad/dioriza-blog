@@ -61,3 +61,5 @@ years = ["2026"]
 <p><a href="https://www.rottentomatoes.com/tv/if_wishes_could_kill"><strong>If Wishes Could Kill: Season 1</strong></a><br />My Rating: 8.5<br />Netflix</p>
 
 <p><a href="https://www.rottentomatoes.com/tv/the_boroughs"><strong>The Boroughs: Season 1</strong></a><br />My Rating: 8<br />Netflix</p>
+
+<p><a href="https://www.rottentomatoes.com/tv/teach_you_a_lesson/s01"><strong>Teach You a Lesson: Season 1</strong></a><br />My Rating: 8<br />Netflix</p>
