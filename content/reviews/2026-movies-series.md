@@ -63,3 +63,20 @@ years = ["2026"]
 <p><a href="https://www.rottentomatoes.com/tv/the_boroughs"><strong>The Boroughs: Season 1</strong></a><br />My Rating: 8<br />Netflix</p>
 
 <p><a href="https://www.rottentomatoes.com/tv/teach_you_a_lesson/s01"><strong>Teach You a Lesson: Season 1</strong></a><br />My Rating: 8<br />Netflix</p>
+
+<article class="watch-entry watch-entry-featured">
+  <div class="watch-entry-main">
+    <h3 class="watch-title"><a href="https://www.rottentomatoes.com/tv/breaking_bad/s05"><strong>Breaking Bad: Season 5</strong></a></h3>
+    <div class="watch-meta">
+      <span class="watch-rating">&#9733; 9</span>
+      <span class="watch-source">Netflix</span>
+    </div>
+  </div>
+  <div class="watch-review">
+    <p>Finally, after years, I've finished this series. The premise of a terminally ill chemistry teacher breaking bad is a brilliant hook, but the early seasons are undeniably a slow burn. The pacing made it so difficult to follow that I even dropped it at one point, returning only because of its undeniable reputation as one of the greatest TV shows of all time. As it turns out, that title is entirely well-deserved, proving that the slow build was a necessary foundation for the massive emotional payoff at the end.</p>
+
+    <p>While Walter's character development is undeniably brilliant as he masterfully transforms from a sympathetic, mild-mannered teacher into a ruthless, ego-driven kingpin, the true scene-stealers for me are entirely different characters. My absolute favorite is Gus Fring, who is the ultimate villain. He is intimidating, cold, highly calculating, and sets a completely new standard for how a genius antagonist should be written. Coming in at a close second is Saul Goodman, a character who brings much-needed color, humor, and dynamic depth, keeping such a grim and heavy universe feeling vibrantly alive.</p>
+
+    <p>All the patience required to get through the early phases pays off massively in the grand finale, which literally gave me goosebumps. The absolute peak was when Walt finally stopped hiding behind the excuse of doing it for his family and gave Skyler the brutal truth: "I did it for me. I liked it. I was good at it. And I was really... I was alive." Furthermore, Walt's tragic attempt at redemption was executed flawlessly. Between getting his poetic revenge for Hank and saving Jesse, even though the damage he caused was far too massive to ever truly be undone, the conclusion felt incredibly satisfying and cemented the series as a phenomenal masterpiece.</p>
+  </div>
+</article>
