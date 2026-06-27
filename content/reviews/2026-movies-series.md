@@ -80,3 +80,5 @@ years = ["2026"]
     <p>All the patience required to get through the early phases pays off massively in the grand finale, which literally gave me goosebumps. The absolute peak was when Walt finally stopped hiding behind the excuse of doing it for his family and gave Skyler the brutal truth: "I did it for me. I liked it. I was good at it. And I was really... I was alive." Furthermore, Walt's tragic attempt at redemption was executed flawlessly. Between getting his poetic revenge for Hank and saving Jesse, even though the damage he caused was far too massive to ever truly be undone, the conclusion felt incredibly satisfying and cemented the series as a phenomenal masterpiece.</p>
   </div>
 </article>
+
+<p><a href="https://www.rottentomatoes.com/tv/not_suitable_for_work/s01"><strong>Not Suitable for Work: Season 1</strong></a><br />My Rating: 7.5<br />Disney+</p>
