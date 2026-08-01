@@ -18,7 +18,7 @@ years = ["2026"]
 
 <p><a href="https://www.imdb.com/title/tt29471182/"><strong>Exhuma (2024)</strong></a><br />My Rating: 8<br />Viu</p>
 
-<p><a href="https://www.imdb.com/title/tt33764258/"><strong>The Odyssey (2026)</strong></a><br />My Rating: 8.5<br />Setiabudi XXI</p>
+<p><a href="https://www.imdb.com/title/tt33764258/"><strong>The Odyssey</strong></a><br />My Rating: 8.5<br />Setiabudi XXI</p>
 
 <hr />
 
