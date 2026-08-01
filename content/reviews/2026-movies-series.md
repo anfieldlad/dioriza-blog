@@ -82,3 +82,5 @@ years = ["2026"]
 </article>
 
 <p><a href="https://www.rottentomatoes.com/tv/not_suitable_for_work/s01"><strong>Not Suitable for Work: Season 1</strong></a><br />My Rating: 7.5<br />Disney+</p>
+
+<p><a href="https://www.imdb.com/title/tt33764258/"><strong>The Odyssey (2026)</strong></a><br />My Rating: 8.5<br />Setiabudi XXI</p>
