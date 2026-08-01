@@ -18,6 +18,8 @@ years = ["2026"]
 
 <p><a href="https://www.imdb.com/title/tt29471182/"><strong>Exhuma (2024)</strong></a><br />My Rating: 8<br />Viu</p>
 
+<p><a href="https://www.imdb.com/title/tt33764258/"><strong>The Odyssey (2026)</strong></a><br />My Rating: 8.5<br />Setiabudi XXI</p>
+
 <hr />
 
 <p><a href="https://www.rottentomatoes.com/tv/high_potential"><strong>High Potential: Season 2</strong></a><br />My Rating: 7<br />Disney+</p>
@@ -82,7 +84,5 @@ years = ["2026"]
 </article>
 
 <p><a href="https://www.rottentomatoes.com/tv/not_suitable_for_work/s01"><strong>Not Suitable for Work: Season 1</strong></a><br />My Rating: 7.5<br />Disney+</p>
-
-<p><a href="https://www.imdb.com/title/tt33764258/"><strong>The Odyssey (2026)</strong></a><br />My Rating: 8.5<br />Setiabudi XXI</p>
 
 <p><a href="https://www.rottentomatoes.com/tv/agent_kim_reactivated/s01"><strong>Agent Kim Reactivated: Season 1</strong></a><br />My Rating: 8.5<br />Netflix</p>
