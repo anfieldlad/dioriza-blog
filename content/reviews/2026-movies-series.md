@@ -88,3 +88,5 @@ years = ["2026"]
 <p><a href="https://www.rottentomatoes.com/tv/not_suitable_for_work/s01"><strong>Not Suitable for Work: Season 1</strong></a><br />My Rating: 7.5<br />Disney+</p>
 
 <p><a href="https://www.rottentomatoes.com/tv/agent_kim_reactivated/s01"><strong>Agent Kim Reactivated: Season 1</strong></a><br />My Rating: 8.5<br />Netflix</p>
+
+<p><a href="https://www.rottentomatoes.com/tv/a_shop_for_killers/s01"><strong>A Shop for Killers: Season 1 (2024)</strong></a><br />My Rating: 7.5<br />Disney+</p>
