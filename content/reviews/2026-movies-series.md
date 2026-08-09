@@ -20,6 +20,8 @@ years = ["2026"]
 
 <p><a href="https://www.imdb.com/title/tt33764258/"><strong>The Odyssey</strong></a><br />My Rating: 8.5<br />Setiabudi XXI</p>
 
+<p><a href="https://www.imdb.com/title/tt22084616/"><strong>Spider-Man: Brand New Day</strong></a><br />My Rating: 7<br />Ciputra Cibubur XXI</p>
+
 <hr />
 
 <p><a href="https://www.rottentomatoes.com/tv/high_potential"><strong>High Potential: Season 2</strong></a><br />My Rating: 7<br />Disney+</p>
